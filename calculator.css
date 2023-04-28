@@ -1,0 +1,97 @@
+body {
+    /* display: flex; */
+    background: linear-gradient(30deg,#202b94,#6c1577,#af2222);
+    
+    height: 700px;
+}
+
+.calculator {
+    border-collapse: collapse;
+    background-color: black;
+    height: 350px;
+    width: 250px;
+    max-width: 360px;
+
+    text-align: center;
+}
+
+#result {
+    background-color: black;
+    color: cyan;
+    height: 45px;
+    padding-top: 22px;
+    text-align: right;
+    font-size: 35px;
+
+}
+
+.button {
+    background-color: rgba(26, 137, 228, 0.89);
+    border: 0;
+    width: 145px;
+    border-collapse: collapse;
+}
+
+.operator {
+    background-color: lightgray;
+}
+
+.opt {
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    background-color: lightgray;
+    border: 0;
+}
+
+.btn {
+    background-color: rgba(98, 170, 230, 0.89);
+    border: 0;
+    width: 100px;
+    height: 25px;
+}
+
+#clear {
+    background-color: red;
+    border: 0;
+    width: 100px;
+    height: 25px;
+}
+
+.clear {
+    background-color: red;
+}
+
+#clear:hover {
+    background-color: lightgray;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.opt:hover {
+    background-color: bisque;
+}
+
+.calculator:hover {
+    box-shadow: 0px 0px 23px 18px black;
+}
+
+#heading {
+    text-align: center;
+    font-size: 35px;
+}
+#heading2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#div3 {
+    color: white;
+    background-color: black;
+    max-width: inherit;
+    height: 275px;
+    width: auto;
+    text-align: center;
+}

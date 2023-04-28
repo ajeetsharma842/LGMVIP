@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo Webpage</title>
+
+	<link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+	
+	
+		<h1>Task List 2021</h1>
+		<form id="todo-form">
+			<input 
+				type="text" 
+				name="todo-input" 
+				id="todo-input" 
+				placeholder="Enter the Tasks You want to do Today" />
+			<input 
+				type="submit"
+				id="todo-submit" 
+				value="Add New task" />
+		</form>
+	
+	<main>
+		<section class="todo-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+			</div>
+		</section>
+	</main>
+
+	<script src="todo.js"></script>
+</body>
+</html>

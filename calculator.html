@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="calculator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator using HTML, CSS and JavaScript</title>
+    <script src="calculator.js">
+    </script>
+</head>
+
+<body>
+
+    <h1 id="heading"><u>Simple Calculator</u></h1>
+    <h2 id="heading2">Made by Ajeet Sharma</h2>
+    <table class="calculator" align="center" cellspacing="0" cellpadding="0" border="0">
+        <tbody>
+            <tr>
+                <td colspan="3"> <input class="display-box" type="text" id="result" disabled=""> </td>
+            </tr>
+            <tr>
+                <td class="operator"> <input class="opt" type="button" value="+" onclick="result.value +=&#39;+&#39;">
+                </td>
+                <td class="operator"> <input class="opt" type="button" value="-" onclick="result.value +=&#39;-&#39;">
+                </td>
+                <td class="operator"> <input class="opt" type="button" value="*" onclick="result.value +=&#39;*&#39;">
+                </td>
+            </tr>
+            <tr>
+                <td class="operator"> <input class="opt" type="button" value="/" onclick="result.value +=&#39;/&#39;">
+                </td>
+                <td class="operator"> <input class="opt" type="button" value="%" onclick="result.value +=&#39;%&#39;">
+                </td>
+                <td class="clear"> <input type="button" value="C" onclick="clearvalues()" id="clear"> </td>
+            </tr>
+            <tr>
+                <td class="button"> <input class="btn" type="button" value="7" onclick="result.value +=&#39;7&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="8" onclick="result.value +=&#39;8&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="9" onclick="result.value +=&#39;9&#39;">
+                </td>
+            </tr>
+            <tr>
+                <td class="button"> <input class="btn" type="button" value="4" onclick="result.value +=&#39;4&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="5" onclick="result.value +=&#39;5&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="6" onclick="result.value +=&#39;6&#39;">
+                </td>
+            </tr>
+            <tr>
+                <td class="button"> <input class="btn" type="button" value="1" onclick="result.value +=&#39;1&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="2" onclick="result.value +=&#39;2&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="3" onclick="result.value +=&#39;3&#39;">
+                </td>
+            </tr>
+            <tr>
+                <td class="operator"> <input class="opt" type="button" value="." onclick="result.value +=&#39;.&#39;">
+                </td>
+                <td class="button"> <input class="btn" type="button" value="0" onclick="result.value +=&#39;0&#39;">
+                </td>
+                <td class="operator"> <input class="opt" type="button" value="=" onclick="calculatevalues()" id="btn">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+
+</body>
+
+</html>
